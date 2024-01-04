@@ -10,9 +10,7 @@ import SwiftUI
 struct ListView: View {
     
     @EnvironmentObject var listViewModel: ListViewModel
-    
 
-    
     var body: some View {
         List{
             //ListRowView(title: "this is the first title")
